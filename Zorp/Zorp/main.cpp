@@ -15,12 +15,16 @@ const char* RESTORE_CURSOR_POS = "\x1b[u";
 
 void main()
 {
-	// Set output mode to handle virtual terminal sequences
-	DWORD dwMode = 0;
-	HANDLE hOut = GetStdHandle(STD_OUTPUT_HANDLE);
-	GetConsoleMode(hOut, &dwMode);
-	dwMode |= ENABLE_VIRTUAL_TERMINAL_PROCESSING;
-	SetConsoleMode(hOut, dwMode);
+	const int EMPTY = 0;
+	const int ENEMY = 0;
+	const int TREASURE = 0;
+	const int FOOD = 0;
+	const int ENTRANCE = 0;
+	const int EXIT = 0;
+	const int MAX_RANDOM_TYPE = FOOD + 1;
+
+	const int MAZE_WIDTH = 10;
+	const int MAZE_HEIGHT = 6;
 
 	int height = 0;
 	char firstLetterOfName = 0;
