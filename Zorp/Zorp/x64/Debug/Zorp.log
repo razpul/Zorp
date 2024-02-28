@@ -1,6 +1,2 @@
-﻿  main.cpp
-C:\Users\George\Documents\Development\C++\School\Git\Zorp\Zorp\Zorp\main.cpp(77,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\George\Documents\Development\C++\School\Git\Zorp\Zorp\Zorp\main.cpp(244,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
-  Zorp.vcxproj -> C:\Users\George\Documents\Development\C++\School\Git\Zorp\Zorp\x64\Debug\Zorp.exe
-  'pwsh.exe' is not recognized as an internal or external command,
-  operable program or batch file.
+﻿  Player.cpp
+  Zorp.vcxproj -> C:\Users\s232606\Documents\Git\intro-to-cpp-task1-Zoroboss2905\Zorp\Zorp\x64\Debug\Zorp.exe
